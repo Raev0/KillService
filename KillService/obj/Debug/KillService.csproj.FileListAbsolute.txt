@@ -1,0 +1,20 @@
+c:\users\marco\documents\visual studio 2015\Projects\KillService\KillService\bin\Debug\KillService.exe.config
+c:\users\marco\documents\visual studio 2015\Projects\KillService\KillService\bin\Debug\KillService.exe
+c:\users\marco\documents\visual studio 2015\Projects\KillService\KillService\bin\Debug\KillService.pdb
+c:\users\marco\documents\visual studio 2015\Projects\KillService\KillService\obj\Debug\KillService.Form1.resources
+c:\users\marco\documents\visual studio 2015\Projects\KillService\KillService\obj\Debug\KillService.ProjectInstaller.resources
+c:\users\marco\documents\visual studio 2015\Projects\KillService\KillService\obj\Debug\KillService.Properties.Resources.resources
+c:\users\marco\documents\visual studio 2015\Projects\KillService\KillService\obj\Debug\KillService.csproj.GenerateResource.Cache
+c:\users\marco\documents\visual studio 2015\Projects\KillService\KillService\obj\Debug\KillService.exe
+c:\users\marco\documents\visual studio 2015\Projects\KillService\KillService\obj\Debug\KillService.pdb
+C:\Users\Marco\Documents\Visual Studio 2015\Projects\KillService\KillService\obj\Debug\KillService.csprojResolveAssemblyReference.cache
+D:\WP\github\KillService\KillService\bin\Debug\KillService.exe.config
+D:\WP\github\KillService\KillService\obj\Debug\KillService.exe
+D:\WP\github\KillService\KillService\obj\Debug\KillService.pdb
+D:\WP\github\KillService\KillService\bin\Debug\KillService.exe
+D:\WP\github\KillService\KillService\bin\Debug\KillService.pdb
+D:\WP\github\KillService\KillService\obj\Debug\KillService.csprojResolveAssemblyReference.cache
+D:\WP\github\KillService\KillService\obj\Debug\KillService.Form1.resources
+D:\WP\github\KillService\KillService\obj\Debug\KillService.ProjectInstaller.resources
+D:\WP\github\KillService\KillService\obj\Debug\KillService.Properties.Resources.resources
+D:\WP\github\KillService\KillService\obj\Debug\KillService.csproj.GenerateResource.Cache
