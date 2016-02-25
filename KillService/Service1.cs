@@ -15,9 +15,7 @@ namespace KillService
         static System.Timers.Timer Timer_Get = new System.Timers.Timer();
         public Process[] process = Process.GetProcesses();
         public String[] processname;
-        public String[] forbiddenprocess;
-        System.Diagnostics.Process builderprocess;
-        bool state = false;
+        String[] forbiddenprocess;
         public Service1()
         {
             InitializeComponent();
@@ -37,15 +35,6 @@ namespace KillService
             {
                 processname[i] = process[i].ProcessName;
             }
-
-            //string serverpath = "C:\\Users\\Marco\\Desktop\\Z++Server.exe";
-            //builderprocess = new System.Diagnostics.Process()
-            //{
-            //    StartInfo = new System.Diagnostics.ProcessStartInfo()
-            //    {
-            //        FileName = serverpath
-            //    }
-            //};
         }
 
         /// <summary>
@@ -73,8 +62,10 @@ namespace KillService
             Timer_Get.Enabled = false;
             try
             {
+                //此处可进行编写详细的业务操作
+                //Process[] process = Process.GetProcesses();
+                //String[] processname = new String[process.Length];
                 GetProcessEvent();
-
                 //foreach (Process anyprocess in process)
                 //{
                 //    if (!processname.Contains(anyprocess.ProcessName))
@@ -83,42 +74,6 @@ namespace KillService
                 //    }
                 //}
 
-                if (System.Diagnostics.Process.GetProcessesByName("Z++Server").Length <= 0)
-                {
-                    System.Diagnostics.ProcessStartInfo Info = new System.Diagnostics.ProcessStartInfo();
-                    Info.FileName = "Z++Server.exe";
-                    Info.WorkingDirectory = @"C:\Users\Marco\Desktop";
-                    //Info.WindowStyle = System.Diagnostics.ProcessWindowStyle.Minimized;
-                    System.Diagnostics.Process Proc;
-                    try
-                    {
-                        Proc = System.Diagnostics.Process.Start(Info);
-                        System.Threading.Thread.Sleep(500);
-                    }
-                    catch (System.ComponentModel.Win32Exception)
-                    {
-                        return;
-                    }
-                }
-
-                for (int i = 0; i < process.Length; i++)
-                {
-                    //if (System.Diagnostics.Process.GetProcessesByName("2").Length <= 0)
-                    //{ }
-                    if (process[i].ProcessName == "Z++Server")
-                    {
-                        state = true;
-                        break;
-                    }
-                    else
-                    {
-                        state = false;
-                    }
-                }
-                if (state != true)
-                {
-                    builderprocess.Start();
-                }
                 foreach (Process anyprocess in process)
                 {
                     if (forbiddenprocess.Contains(anyprocess.ProcessName))
@@ -126,6 +81,7 @@ namespace KillService
                         anyprocess.Kill();
                     }
                 }
+
             }
             catch (Exception ex)
             {

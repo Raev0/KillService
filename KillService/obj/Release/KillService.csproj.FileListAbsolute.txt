@@ -1,0 +1,9 @@
+C:\Users\todd\Desktop\KillService\KillService\bin\Release\KillService.exe.config
+C:\Users\todd\Desktop\KillService\KillService\bin\Release\KillService.exe
+C:\Users\todd\Desktop\KillService\KillService\bin\Release\KillService.pdb
+C:\Users\todd\Desktop\KillService\KillService\obj\Release\KillService.Form1.resources
+C:\Users\todd\Desktop\KillService\KillService\obj\Release\KillService.ProjectInstaller.resources
+C:\Users\todd\Desktop\KillService\KillService\obj\Release\KillService.Properties.Resources.resources
+C:\Users\todd\Desktop\KillService\KillService\obj\Release\KillService.csproj.GenerateResource.Cache
+C:\Users\todd\Desktop\KillService\KillService\obj\Release\KillService.exe
+C:\Users\todd\Desktop\KillService\KillService\obj\Release\KillService.pdb
